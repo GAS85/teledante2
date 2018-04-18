@@ -1,5 +1,10 @@
 # teledante2
-Simple config for Dante 1.1.19 on Ubuntu 16.04 for Telegram / Простая настройка Dante 1.1.19 на Ubuntu 16.04 для телеграма 
+Simple config for Dante 1.1.19 on Ubuntu 16.04 for Telegram
+===============================================
+
+/
+
+Простая настройка Dante 1.1.19 на Ubuntu 16.04 для телеграма 
 ===============================================
 
 Features
@@ -33,6 +38,9 @@ Add user telegram to group "nogroup" / добавляем пользовател
 ```
 sudo useradd -s /usr/sbin/nologin -g nogroup telegram && sudo passwd telegram
 ```
+_or in one command (NOT recommended) / или одной командой (НЕ рекомендуется)_
+
+    sudo useradd -s /usr/sbin/nologin -g nogroup --password NEWPASS telegram
 
 copy config into / копируем конфиг сюда ```/etc/danted.conf``` 
 
